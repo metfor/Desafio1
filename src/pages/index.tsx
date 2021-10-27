@@ -1,3 +1,6 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable semi */
+/* eslint-disable react/react-in-jsx-scope */
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -69,4 +72,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Home;
