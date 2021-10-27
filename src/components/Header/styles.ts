@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 export const Container = styled.header`
-  position: absolute;
+ position: relative;
   width: 100%;
   min-width: 560px;
   left: 0;
   top:0;
   height: 15.625rem;
   background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  margin-bottom: 10px;
 ;
 
 `;
