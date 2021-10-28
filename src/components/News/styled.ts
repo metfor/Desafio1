@@ -1,19 +1,18 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 export const Container = styled.header`
- width: 100%;
+  width: 100%;
   min-width: 560px;
   left: 0;
-  top:0;
- 
-  
+  top: 0;
   margin-bottom: 10px;
 `;
 
 export const Content = styled.div`
   @media (min-width: 1120px) {
     max-width: 1120px;
-    padding: 1rem 1rem 15rem;
+    padding: 1rem 1rem 10rem;
+    margin-top: 3.125rem;
   }
   @media (max-width: 1120px) {
     width: 90%;
@@ -21,11 +20,10 @@ export const Content = styled.div`
   }
 
   background: white;
-  
+
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 `;
 export const Date = styled.h2`
   color: #b6b6b6;
@@ -52,13 +50,14 @@ export const Title = styled.h1`
 export const Desc = styled.p`
   max-width: 1110px;
   position: absolute;
-  margin-top: 400px;
+  margin-top: 230px;
 
   line-height: 26px;
   font-family: Lexend Deca;
   font-size: 1.125rem;
   color: #b6b6b6;
   @media (max-width: 1120px) {
+    margin-top: 400px;
     font-size: 1rem;
   }
 `;
@@ -73,3 +72,6 @@ export const LikeBox = styled.div`
   }
 `;
 export const LikeImg = styled(Image)``;
+export const SearchBox = styled.div`
+  position: absolute;
+`;
