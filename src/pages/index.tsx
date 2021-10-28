@@ -3,16 +3,15 @@ import Head from 'next/head';
 import { Header } from '../components/Header';
 import { News } from '../components/News';
 
-
 const Home: NextPage = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <Head>
         <title>Codelandia</title>
         <meta name="description" content="codelandia" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Header />
       <News
         title="Agora é oficial:Widows 11 está vindo"
@@ -22,7 +21,7 @@ const Home: NextPage = () => {
         lacinia volutpat massa id tempor. Mauris laoreet nisi vel leo semper
         pharetra. Fusce faucibus mauris quis elit imperdiet viverra."
       />
-       <News
+      <News
         title="Agora é oficial:Widows 11 está vindo"
         date="02 de jul, 2021"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -30,7 +29,7 @@ const Home: NextPage = () => {
         lacinia volutpat massa id tempor. Mauris laoreet nisi vel leo semper
         pharetra. Fusce faucibus mauris quis elit imperdiet viverra."
       />
-       <News
+      <News
         title="Agora é oficial:Widows 11 está vindo"
         date="02 de jul, 2021"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
